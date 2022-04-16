@@ -7,7 +7,7 @@ import Portfolio from './components/body/portfolio';
 import Contact from './components/body/contact';
 import Resume from './components/body/resume';
 
-
+// list of each of my pages for ease of use/access
 const pages = [
   {
     name:'About Me',
@@ -34,17 +34,17 @@ function App() {
 
   return (
     <div className="App">
-      <Header pages={pages} setSelected={setSelected} selected={selected}>
+      {/* passes getters and setters for page selection */}
+      <Header pages={pages} setSelected={setSelected} selected={selected} />
 
-      </Header>
+      {/* conditionally rendering each page depending on selection */}
       {pages.map((page, index)=>{
         if (index !== selected) return null
-
         return <page.component key={index}/>
       })}
-      <Footer>
 
-      </Footer>
+      {/* render the footer with icon links */}
+      <Footer/>
     </div>
   );
 }
