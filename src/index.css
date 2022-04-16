@@ -36,7 +36,8 @@ footer {
 section {
   margin-block: 6em;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .links {
@@ -54,12 +55,15 @@ section {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width:80%;
   max-width: 90em;
 }
 
 .footer-url-image {
-  width:3em;
+  width:2em;
   margin-inline:1em;
 }
 
@@ -72,12 +76,35 @@ section {
   width:2em;
 }
 
+.project-container {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(20em, 2fr) );
+}
+
+.project-link {
+  text-decoration: none;
+  font-size: larger;
+  text-transform: uppercase;
+  color: black;
+}
+.project-link:hover {
+  color: grey;
+}
+
 .project {
   background-color: var(--project-background);
   width: 14em;
   height: 14em;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 2em;
   box-shadow: 0px 0px 3px 1px rgb(113, 113, 113);
+  margin:1em;
+}
+
+.project:hover {
+  box-shadow: 0px 0px 8px 4px rgb(113, 113, 113);
+  transition: box-shadow 1s;
 }
