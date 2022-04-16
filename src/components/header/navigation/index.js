@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-
+//  component for navigation links which are passed down as props
+// prop drilling is not ideal, in the future might want to use a store
 function Navigation(props) {
   const {pages, selected, setSelected} = props
   return (

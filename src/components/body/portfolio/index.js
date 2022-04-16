@@ -8,6 +8,7 @@ import P4Img from '../../../assets/images/project4.jpg'
 import P5Img from '../../../assets/images/project5.jpg'
 import P6Img from '../../../assets/images/project6.png'
 
+// the main component to render for the portfolio page
 function Portfolio() {
   return (
     <section>
@@ -17,6 +18,8 @@ function Portfolio() {
           My Portfolio
         </h1>
         <div className="project-container">
+
+          {/* each project is its own component with the description text as a child */}
           <Project name="js-parse-xml" github="https://github.com/JeremyMColegrove/js-parse-xml" link="https://www.npmjs.com/package/js-parse-xml" image={P1Img} >
             A fast, well-formed XML parser for Node.JS
           </Project>

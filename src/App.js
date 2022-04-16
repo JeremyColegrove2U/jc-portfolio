@@ -7,7 +7,7 @@ import Portfolio from './components/body/portfolio';
 import Contact from './components/body/contact';
 import Resume from './components/body/resume';
 
-// list of each of my pages for ease of use/access
+// list of each of my pages for ease of use/access along with the component to render for that page
 const pages = [
   {
     name:'About Me',
