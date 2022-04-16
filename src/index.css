@@ -39,9 +39,11 @@ section {
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 1)), url("./assets/images/project6.png");
-  
 }
 
+h1 {
+  font-size: larger;
+}
 .links {
   margin-inline: 0.5em;
 }
@@ -83,7 +85,7 @@ section {
   width: 100%;
   justify-items: center;
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(22em, 2fr) );
+  grid-template-columns: repeat( auto-fit, minmax(min(22em, 100%), 2fr) );
 }
 
 .project-link {
@@ -91,14 +93,22 @@ section {
   font-size: larger;
   text-transform: uppercase;
   color:whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .project-link:hover {
   color: rgb(205, 205, 255);
 }
-
+.project-link-img {
+  height:1em;
+  width:1em;
+  margin-left: 1em;
+}
 .project {
   background-color: var(--project-background);
-  width: 17em;
+  width: min(17em, 70%);
   height: 14em;
   display: flex;
   flex-direction: column;
@@ -177,4 +187,14 @@ margin-bottom:1em;
 }
 .resume-link:hover {
   text-decoration: underline;
+}
+
+.desktop-only {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .desktop-only {
+    display: none;
+  }
 }

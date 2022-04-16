@@ -7,7 +7,7 @@ function Header(props) {
 
   return (
     <header>
-        <h1>
+        <h1 className="desktop-only">
             Jeremy Colegrove
         </h1>
 
