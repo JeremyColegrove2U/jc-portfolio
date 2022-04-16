@@ -79,22 +79,22 @@ section {
 .project-container {
   justify-items: center;
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(20em, 2fr) );
+  grid-template-columns: repeat( auto-fit, minmax(22em, 2fr) );
 }
 
 .project-link {
   text-decoration: none;
   font-size: larger;
   text-transform: uppercase;
-  color: black;
+  color:whitesmoke;
 }
 .project-link:hover {
-  color: grey;
+  color: rgb(205, 205, 255);
 }
 
 .project {
   background-color: var(--project-background);
-  width: 14em;
+  width: 17em;
   height: 14em;
   display: flex;
   flex-direction: column;
@@ -102,9 +102,50 @@ section {
   padding: 2em;
   box-shadow: 0px 0px 3px 1px rgb(113, 113, 113);
   margin:1em;
+  color: white;
 }
 
 .project:hover {
   box-shadow: 0px 0px 8px 4px rgb(113, 113, 113);
   transition: box-shadow 1s;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-label {
+font-weight: 500;
+margin-top: 2em;
+margin-bottom:1em;
+}
+
+.contact-input {
+  width:100%;
+  padding:1em;
+  resize:vertical;
+  border-style: none;
+  box-shadow: 0px 0px 1px 1px rgb(174, 174, 174);
+  outline: none;
+}
+
+.contact-submit {
+  border-style: none;
+  width:100%;
+  margin-top:2em;
+  padding:1em;
+  background-color: cornflowerblue;
+  color:white;
+}
+.contact-container {
+  width:80%;
+  max-width: 40em;
+}
+.contact-notification {
+  width:100%;
+  text-align: left;
+  color: red;
 }
