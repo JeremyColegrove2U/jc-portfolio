@@ -34,10 +34,12 @@ footer {
 }
 
 section {
-  margin-block: 6em;
+  padding-block: 6em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 1)), url("./assets/images/project6.png");
+  
 }
 
 .links {
@@ -58,6 +60,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width:80%;
   max-width: 90em;
 }
@@ -77,6 +80,7 @@ section {
 }
 
 .project-container {
+  width: 100%;
   justify-items: center;
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(22em, 2fr) );
@@ -144,8 +148,33 @@ margin-bottom:1em;
   width:80%;
   max-width: 40em;
 }
+
 .contact-notification {
   width:100%;
   text-align: left;
   color: red;
+}
+
+.skill-inside {
+  height:1em;
+  border-radius: 1em;
+}
+.skill-outside {
+  background-color: rgb(179, 179, 179);
+  border-radius: 1em;
+  width:min(100%, 20em);
+  height:1em;
+}
+.skill-label {
+  font-weight: 600;
+}
+
+.resume-link {
+  margin-top:2em;
+  color:rgb(80, 80, 80);
+  text-decoration: none;
+  font-weight: 600;
+}
+.resume-link:hover {
+  text-decoration: underline;
 }
