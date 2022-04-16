@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/jc-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/jc-portfolio/static/js/main.00422b55.js",
+    "main.css": "/jc-portfolio/static/css/main.603ebcbb.css",
+    "main.js": "/jc-portfolio/static/js/main.1308ea2b.js",
     "static/js/787.614e4294.chunk.js": "/jc-portfolio/static/js/787.614e4294.chunk.js",
-    "static/media/logo.svg": "/jc-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/profile.jpg": "/jc-portfolio/static/media/profile.911061972f7350e4fd42.jpg",
+    "static/media/project3.jpg": "/jc-portfolio/static/media/project3.19a76e49823b3f0faf2c.jpg",
+    "static/media/project1.jpg": "/jc-portfolio/static/media/project1.bbe686a20bca83206a41.jpg",
+    "static/media/project2.jpg": "/jc-portfolio/static/media/project2.8dec798049a8b3cfae0c.jpg",
+    "static/media/project5.jpg": "/jc-portfolio/static/media/project5.e13ab2628a510d4d5355.jpg",
+    "static/media/project4.jpg": "/jc-portfolio/static/media/project4.fa960f7838f9c0cb321f.jpg",
+    "static/media/JeremyColegroveResume.pdf": "/jc-portfolio/static/media/JeremyColegroveResume.5a5eddbb6f4e345427c8.pdf",
     "index.html": "/jc-portfolio/index.html",
-    "main.073c9b0a.css.map": "/jc-portfolio/static/css/main.073c9b0a.css.map",
-    "main.00422b55.js.map": "/jc-portfolio/static/js/main.00422b55.js.map",
+    "main.603ebcbb.css.map": "/jc-portfolio/static/css/main.603ebcbb.css.map",
+    "main.1308ea2b.js.map": "/jc-portfolio/static/js/main.1308ea2b.js.map",
     "787.614e4294.chunk.js.map": "/jc-portfolio/static/js/787.614e4294.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.00422b55.js"
+    "static/css/main.603ebcbb.css",
+    "static/js/main.1308ea2b.js"
   ]
 }
